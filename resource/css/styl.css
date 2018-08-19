@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page{
+  width: 470px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.logo img{
+  padding: 45px;
+  position: relative;
+  width: 360px;
+  height: 180px;
+}
+.isi_konten{
+  font-family: "Roboto", sans-serif;
+  color: #164a16;
+  font-size: 14px;
+
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 470px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #16a92829;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #43A047;
+}
+.form .message {
+  margin: 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+
+#footermenu{
+  padding: 0;
+  margin:0;
+  width: 100%;
+  background: #4CAF50;
+  height: auto;
+  color: #FFFFFF;
+}
+#footermenu .isi{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+.login-mail input[type="text"],.login-mail input[type="password"]{
+  border: none;
+  outline:none;
+  font-size: 0.9em;
+    color: #999;
+    width: 95%;
+}
+.login-do {
+    padding-bottom: 2em;
+}
+.login-do input[type="submit"]{
+  border: none;
+    outline: none;
+    font-size: 1em;
+    -webkit-appearance: none;
+    cursor: pointer;
+    background: none; 
+}
+.login-do label{
+  font-weight:400;
+}
+.hvr-skew-backward {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  background-color: #F67777;
+   color: #fff;
+   padding: 0.5em 1em;
+   font-size:1em;
+}
+.hvr-skew-backward:hover, .hvr-skew-backward:focus, .hvr-skew-backward:active {
+  -webkit-transform: skew(10deg);
+  transform: skew(10deg);
+  color:#fff;
+  background:#FF6C6C;
+    text-decoration:none;
+}
